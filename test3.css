@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.container .header{
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem;
+    gap:1rem;
+    border:1px solid white;
+    align-items: center;
+}
+.container .header .header-logo p{
+    color:#000000;
+    font-size:40px;
+    
+}
+.container .header .header-logo span{
+    color:#f31919;
+    font-size:40px;
+    
+}
+:root{
+    --primarycolor:#f31919;
+    --secondarycolor:#000000;
+}
+.container .header .header-logo span p {
+    color:var(--primarycolor);
+    
+}
+.container  .header nav ul{
+    display:flex;
+    align-items:center;
+    gap:2rem;
+}
+.container  .header nav ul li{
+   list-style: none;
+   font-size: 20px;
+}
+.container  .header nav ul li a{
+    text-decoration: none;
+}
+.container .header .actions-btns{
+    display:flex;
+    gap:1rem;
+}
+.container .header .actions-btns button{
+    padding:10px 30px;
+    cursor:pointer;
+    border:1px solid var(--primarycolor);
+    border-radius:10px;
+    background-color: transparent;
+}
+
+.container .header .actions-btns .login-btn{
+    color:var(--primarycolor);
+}    
+.container .header .actions-btns .signup-btn{
+    color:white;
+    background-color: #f31919;
+}   
+a:hover{
+    color:aqua;
+} 
+a:focus{
+    color:var(--primarycolor);
+}
+.menutoogle{
+    display:none;   
+}
+.section-2 .titre-section2 h3{
+    color:var(--primarycolor);
+}
+
+.section-2 .titre-section2 .jk1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+
+}
+ .kl1{
+    color:var(--primarycolor);
+
+}
+.section-form{
+    background-color: #D9D9D963;
+    justify-content: space-between;
+    display:flex;
+    gap:6rem;
+    border: 1px solid white;
+    flex-direction: column;
+    padding:none;
+    align-items: center;
+    right: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 30px;
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+input{
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    padding-left:05px;
+    background-color: #D9D9D963;
+    margin-bottom: 30px;
+}
+.title-section2{
+    color: #00000063;
+}
+.button{
+    background-color: red;
+    color:white;
+    cursor: pointer;
+
+}
+.message{
+    height: 100px;
+}
+ .red{
+    color: #f31919;
+}
+footer{
+    background-color: #3F3D56BF;
+}
+.container footer{
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem;
+    gap:1rem;
+    border:1px solid  #3F3D56BF;
+    align-items: center;
+}
+.container footer .header-logo p{
+    color:#000000;
+    font-size:40px;
+    
+}
+.container footer .header-logo span{
+    color:#f31919;
+    font-size:40px;
+    
+}
+.container center .po{
+    background-color:  #3F3D56BF;
+    width: 100%;
+}
+.container footer .element1{
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem;
+    gap:1rem;
+    border:0px solid  #3F3D56BF;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+}
+.container footer .element2{
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem;
+    gap:1rem;
+    border:0px solid  #3F3D56BF;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+}
+.container footer .element3{
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem;
+    gap:1rem;
+    border:0px solid  #3F3D56BF;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+
+}
+.container footer .element2 a{
+   text-decoration: none;
+   color: whitesmoke;
+}
+.container footer .element1 div{
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem;
+    gap:1rem;
+    border:0px solid  #3F3D56BF;
+    align-items: center;
+    flex-direction: column;
+    flex-direction: row;
+}
+.footerp{
+    background-color:  #3F3D56BF;
+    margin-top: 30px;
+}
+.container footer .element3 p{
+    cursor: pointer;
+
+}

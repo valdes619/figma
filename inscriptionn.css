@@ -1,0 +1,36 @@
+body{
+color:white;
+background-image:url("img5.jpg");
+}
+label{
+font-family:arial ;
+
+}
+.NB{
+font-size:1.2em;
+font-style:italic;
+font-weight:bold;
+opacity:0.5;
+}
+.corps{
+background-attachment:fixed;
+height:1000px;
+}
+.demander{
+background-color:blue;
+border-radius:30px;
+height:40px;
+width:200px;
+margin:20px;
+
+}
+.refuser{
+background-color:red;
+border-radius:30px;
+height:40px;
+width:200px;
+margin:20px;
+}
+.text{
+border-radius:20px ;
+}
